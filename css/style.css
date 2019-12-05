@@ -1,0 +1,82 @@
+.all{
+    color: #626262;
+}
+
+.block1{
+    text-align:  center;
+}
+
+.block2{
+    text-align:  center;
+}
+
+.point1{
+    display: inline;
+    text-align:  center;
+    margin: 3px 29px;
+    margin-right: 394px;
+}
+
+.point2{
+    display: inline;
+    text-align:  center;
+    margin: 3px 29px;
+    margin-right: 367px;
+}
+
+.list-element {
+    margin-right: 50px;
+    text-decoration: none;
+    display: inline;
+}
+
+li a:hover{
+    color: aqua;
+}
+
+.list{
+    text-align:  center; 
+}
+
+li a{
+    text-decoration: none;
+    color: #626262;
+}
+
+.img1{
+    margin: 0 20px;
+    width: 470px;
+    height: auto;
+}
+
+.text1{
+    width: 470px;
+    text-align: center;
+    display: inline-block; 
+    margin-right: 8px;
+    padding: 0 8px;
+}
+
+.text2{
+    width: 470px;
+    text-align: center;
+    display: inline-block; 
+    margin-left: 0 8px;
+    padding: 0 8px;
+}
+
+.text3{
+    width: 470px;
+    text-align: center;
+    display: inline-block; 
+    margin-right: 8px;
+    padding: 0 8px;
+}
+
+.text4{
+    width: 470px;
+    text-align: center;
+    display: inline-block; 
+    margin-left: 8px;
+    padding: 0 8px;
+}
