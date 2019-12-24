@@ -80,3 +80,15 @@ li a{
     margin-left: 8px;
     padding: 0 8px;
 }
+
+.button{
+    text-align: right;
+    display: inline-block;
+    margin: 5px;
+    padding: 10px 15px;
+    border: 1px solid #626262;
+}
+
+.perent_button{
+    text-align: center;
+}
