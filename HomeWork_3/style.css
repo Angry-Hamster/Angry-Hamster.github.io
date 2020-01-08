@@ -1,30 +1,58 @@
 @import url('https://fonts.googleapis.com/css?family=Courgette&display=swap');
 
 .general-a{
-    width: 1000px;
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
 }
 
-.list-element{
-    display: inline;
-    text-decoration: none;
+.list{
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
-.list{
-    display: inline;
+.pass{
+    width: 45%;
+}
+
+a{
+    text-decoration: none;
+    display: inline-bloc;
+    width: auto;
+    text-align: center;
+    color: #fce38a;
+}
+
+a::after{
+    transition: all 0.5s;
+    content: '';
+    display: block;
+    width: 100%;
+    height: 3px;
+    transform-origin: 50%;
+    transform: scalex(0);
+    background-color: #f38181;
+}
+
+a:hover::after{
+    transform: scalex(1);
 }
 
 .general-b{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
 }
 
-.head1{
+.haed1{
     color: #95e1d3;
-    display: inline;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .head2{
@@ -38,8 +66,6 @@
 }
 
 .underline{
-    position: relative;
-    text-align: center;
     width: 50px;
     height: 3px;
     background-color: #f38181;
