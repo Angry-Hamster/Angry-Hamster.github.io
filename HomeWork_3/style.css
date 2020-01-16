@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:700&display=swap');
+
 
 .general-a{
     width: 100%;
@@ -15,7 +17,7 @@
 }
 
 .pass{
-    width: 45%;
+    width: 50%;
 }
 
 a{
@@ -23,6 +25,10 @@ a{
     display: inline-bloc;
     width: auto;
     text-align: center;
+    color: #95e1d3;
+}
+
+a:hover{
     color: #fce38a;
 }
 
@@ -53,6 +59,8 @@ a:hover::after{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    size: 30px;
 }
 
 .head2{
@@ -62,11 +70,45 @@ a:hover::after{
 }
 
 .text1{
-    font-family: 'Courgette', cursive;
+    font-family: 'Kaushan Script', cursive;
+    margin-top:45px ;
 }
 
 .underline{
-    width: 50px;
+    width: 60px;
     height: 3px;
     background-color: #f38181;
+    margin-top:40px ;
+    margin-bottom:65px ;
 }
+
+.block{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.general-c{
+    display:flex;
+}
+
+.text3{
+    width: 270px;
+    height: 70px;
+}
+
+.img{
+    widows:33px;
+    height:33px;
+}
+
+.img1{
+    width: 93px;
+    height: 93px;
+    text-align: center;
+}
+
+.text2{
+    font-family: 'Montserrat', sans-serif;
+}
+
