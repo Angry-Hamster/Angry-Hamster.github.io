@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Montserrat:700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script|Montserrat:400,700|Roboto&display=swap');
 
 
 .general-a{
@@ -59,8 +58,8 @@ a:hover::after{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    font-family: 'Montserrat', sans-serif;
-    size: 30px;
+    font-family: 'Montserrat bold 700', sans-serif;
+    font-size: 30px;
 }
 
 .head2{
@@ -79,7 +78,7 @@ a:hover::after{
     height: 3px;
     background-color: #f38181;
     margin-top:40px ;
-    margin-bottom:65px ;
+    margin-bottom:40px ;
 }
 
 .block{
@@ -110,5 +109,20 @@ a:hover::after{
 
 .text2{
     font-family: 'Montserrat', sans-serif;
+}
+
+.headName{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.textFont{
+    font-family: 'Roboto', sans-serif;
+    width: 300px;
+}
+
+.textFont2{
+    font-family: 'Roboto', sans-serif;
+    width: 960px;
+    text-align: center;
 }
 
