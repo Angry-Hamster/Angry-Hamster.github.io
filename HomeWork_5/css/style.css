@@ -1,15 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:300i,400&display=swap');
 @font-face {
     font-family: 'Droid Serif Italic';
-    src: url('DroidSerif-Italic.eot');
-    src: url('DroidSerif-Italic.eot?#iefix') format('embedded-opentype'),
-    url('DroidSerif-Italic.woff') format('woff'),
-    url('DroidSerif-Italic.ttf') format('truetype');
+    src: url('../fonts/DroidSerif-Italic.eot');
+    src: url('../fonts/DroidSerif-Italic.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/DroidSerif-Italic.woff') format('woff'),
+    url('../fonts/DroidSerif-Italic.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;}
 @font-face {
     font-family: "wisdom Script"; 
-    src: url("./Wisdom\ Script\ AJ.otf") format("truetype"); 
+    src: url("../fonts/Wisdom\ Script\ AJ.otf") format("truetype"); 
     font-style: normal; 
     font-weight: normal; } 
 
@@ -167,6 +167,7 @@ a:hover{
     width: 460px;
     height: 50px;
     font-family: 'Montserrat';
+    font-style: bold;
     font-size: 14px;
     border-radius: 5px;
 }
@@ -176,8 +177,9 @@ a:hover{
     width: 410px;
     height: 188px;
     font-family: 'Montserrat';
-    font-size: 14px;
+    font-size: 14px; 
     border-radius: 5px;
+    color: aqua;
 }
 
 .button{
@@ -193,5 +195,9 @@ a:hover{
 }
 
 .input-element::placeholder{
+    
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    /* font-style: bold; */
+    font-size: 14px;
     color: #777777;
 }

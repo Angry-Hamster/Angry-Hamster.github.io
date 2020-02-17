@@ -34,8 +34,7 @@ a{
 }
 
 a:hover{
-    color: #f38181;
-}
+    color: #f38181;}
 
 a::after{
     transition: all 0.5s;
@@ -148,7 +147,7 @@ a:hover::after{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 93%;
+    width: 1210px;
 }
 /*  */
 #img-1{
@@ -269,8 +268,8 @@ a:hover::after{
 
 .text4{
     font-family: 'Roboto';
-    font-style: italic;
-    color: #a6a6a6
+    font-style: Italic;
+    color: #a6a6a6;
 }
 
 .underName{
@@ -336,5 +335,6 @@ a:hover::after{
     width: 150px;
     height: 100%;
     font-family:'Montserrat';
+    font-style: bold;
     font-weight: 800
 }
