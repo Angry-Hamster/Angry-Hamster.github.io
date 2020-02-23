@@ -57,7 +57,7 @@
 // let height=23,
 //     width=10,
 //     s;
-// s=height*width
+// s=height*width;
 // console.log(s);
 
 
@@ -73,9 +73,9 @@
 // let n=3,
 //     m=4,
 //     k;
-// k=Math.sqrt(n**2+m**2)
+// c = Math.sqrt (( Math.pow (3,2)) + ( Math.pow(4,2) ))
 
-// console.log(k);
+// console.log(c);
 
 
 // let s=2000,
