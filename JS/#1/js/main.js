@@ -15,22 +15,24 @@
 // let d=[];
 // let e={};
 
-// console q=456;
-// console w=true;
-// console r="false";
-// console t={};
-// console y=[];
+// const q=456;
+// const w=true;
+// const r="false";
+// const t={};
+// const y=[];
 
 
 // let myAge=13;
 // let daniaAge=11;
-// console.log(myAge+daniaAge)
+// console.log(myAge+daniaAge);
+// alert(myAge+daniaAge);
 
 // let q=108,
 //     w=223,
 //     e=2,
 //     r=5;
-// console.log(q+w-e*r)   
+// console.log(q+w-e*r);
+// alert(q+w-e*r);
 
 
 // let a1=5 + 3,
@@ -64,8 +66,8 @@
 // let heightC=10,
 //     dC=4,
 //     v;
-// dC=dC / 2;
-// v=3.14 * dC**2 * heightC;
+// rC=dC / 2;
+// v=3.14 * d=rC**2 * heightC;
 
 // console.log(v);
 
