@@ -66,8 +66,8 @@
 // let heightC=10,
 //     dC=4,
 //     v;
-// rC=dC / 2;
-// v=3.14 * d=rC**2 * heightC;
+// rC = dC / 2;
+// v = Math.PI * Math.pow(rC, 2) * heightC;
 
 // console.log(v);
 

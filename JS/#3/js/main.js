@@ -1,7 +1,7 @@
 // #1
-// let data=1;
+// let data = 1;
 
-// if (data > 2){
+// if (data => 2){
 //     console.log('02');
 // } else {
 //     console.log('1');
