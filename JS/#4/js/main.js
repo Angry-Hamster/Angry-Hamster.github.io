@@ -73,12 +73,12 @@
 
 
 // #8
-let n=1000,
-    repetition=0;
+// let n=1000,
+//     repetition=0;
 
-while (n >= 50){
-    n = n / 2;
-    repetition++
-}
-console.log(repetition);
-console.log(n);
+// while (n >= 50){
+//     n = n / 2;
+//     repetition++
+// }
+// console.log(repetition);
+// console.log(n);
