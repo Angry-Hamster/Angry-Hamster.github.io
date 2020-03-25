@@ -25,7 +25,7 @@
 // }
 
 
-// // #4
+// // #4 не забуть +5
 // const matrix = [
 //     [10,11,12], 
 //     [13,14,15], 
@@ -51,17 +51,18 @@
 
 // #6
 // let stack=[];
-// let first=1;
-// let second=4;
+// first=[2,3,4],
+// second=[5,6,7,8];
 
-// for(let i=0; i<3; i++){
-//     first=first+1;
-//     stack.unshift(first);
+// for(let i=0; i<first.length; i++){
+//     stack.unshift(first[i]);
 // }
-// for(let i=0; i<4; i++){
-//     first=first+1;
-//     stack.push(first);
+
+
+// for(let i=0; i<second.length; i++){
+//     stack.push(second[i]);
 // }
+
 // console.log(stack);
 
 
