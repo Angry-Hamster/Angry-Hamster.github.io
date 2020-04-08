@@ -1,7 +1,7 @@
 // #1
 // let i = 0;
 // while(i < 10){
-//     i++
+//     i++;
 //     console.log(i);
 // }
 
@@ -9,7 +9,7 @@
 // #2
 // let i = 0;
 // while(i < 10){
-//     i++
+//     i++;
 //     if(i%2==0){
 //         console.log('Число парне');
 //     } else{
@@ -21,20 +21,20 @@
 // #3
 // let num=20;
 // while(num < 28){
-//     num++
+//     num++;
 //     console.log(num);
 // }
 
 
 // #4
-// let name='';
-// name = prompt('Name Herous ');
-// while(name.length >= 6){
-//     name = prompt('Name Herous ');
-//     if(name.length < 6){
-//         console.log(name);
-//     }
-// }
+let name='';
+name = prompt('Name Herous ');
+while(name.length <= 6){
+    name = prompt('Name Herous ');
+    if(name.length < 6){
+        console.log(name);
+    }
+}
 
 
 // #5
@@ -78,7 +78,7 @@
 
 // while (n >= 50){
 //     n = n / 2;
-//     repetition++
+//     repetition++;
 // }
 // console.log(repetition);
 // console.log(n);

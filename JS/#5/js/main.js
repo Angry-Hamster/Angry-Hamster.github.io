@@ -51,8 +51,8 @@
 
 // #6
 // let stack=[];
-// first=[2,3,4],
-// second=[5,6,7,8];
+//     first=[2,3,4],
+//     second=[5,6,7,8];
 
 // for(let i=0; i<first.length; i++){
 //     stack.unshift(first[i]);

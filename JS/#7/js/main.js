@@ -44,7 +44,7 @@
 //     }
 // }
 
-// fn(object)
+// fn(object);
 
 
 // #5
@@ -64,20 +64,17 @@
 
 
 // #6
-// let cafe = {
-//     name: 'Republic', 
-//     width:200, 
-//     height: 300, 
-//     personal:5, 
-//     hr: true 
-// }; 
+let cafe = {
+    name: 'Republic', 
+    width:200, 
+    height: 300, 
+    personal:5, 
+    hr: true 
+},
+    parameter=[];
 
-// console.log(Object.entries(cafe));
-
-
-// for (const key in cafe){
-//      console.log(key+': '+cafe[key]);
-// }
-
-
-// console.log('площа будівлі: '+cafe.width*cafe.height+' м²');
+for (let [key, value] of Object.entries(cafe)) {
+    console.log(`${key}: ${value}`);
+    parameter.push(`${value}`);
+}
+console.log('площа будівлі: '+parameter[1]*parameter[2]+' м²');

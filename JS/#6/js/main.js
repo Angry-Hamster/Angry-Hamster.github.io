@@ -25,13 +25,13 @@
 
 
 // #4
-// const repeat = function(str, n){
-//     for(let i=0; i<n; i++){
-//         console.log(n);
-//     }
-// };
+const repeat = function(str = "", n = 2){
+    for(let i=0; i<n; i++){
+        console.log(str);
+    }
+};
 
-// repeat("", 2);
+repeat();
 
 
 // #5
