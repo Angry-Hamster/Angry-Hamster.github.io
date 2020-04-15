@@ -1,5 +1,5 @@
 // #1 -----------------------------------------------
-// let inputs = document.querySelectorAll("inputs"),
+// let inputs = document.querySelectorAll(".inputs"),
 //     firstInput = document.querySelector("#first");
 // console.log(inputs);
 // console.log(firstInput);
@@ -23,12 +23,12 @@
 
 
 // #4 -----------------------------------------------
-// let input = document.querySelector("#first");
+// let input = document.querySelector("#first").value;
+// console.log(input); 
 // const fn = function(input){
-//     return(input*4);
+//     document.querySelector('#first').value = input*4;
 // };
-
-// console.log(fn(input.value)); 
+// fn(input);
 
 
 // #5 -----------------------------------------------
