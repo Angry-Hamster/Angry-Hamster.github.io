@@ -23,12 +23,12 @@
 
 
 // #4 -----------------------------------------------
-// let input = document.querySelector("#first").value;
-// console.log(input); 
-// const fn = function(input){
-//     document.querySelector('#first').value = input*4;
-// };
-// fn(input);
+let input = document.querySelector("#first").value,
+    text = document.querySelector(".more-text");
+const fn = function(input){
+    text.innerHTML = input * 4;
+};
+fn(input);
 
 
 // #5 -----------------------------------------------
