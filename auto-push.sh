@@ -3,5 +3,7 @@ git status
 git add -A
 git commit -m'new commit'
 git status
-git push
+git push 
+Angry-Hamster
+ab6971ab12345678
 
