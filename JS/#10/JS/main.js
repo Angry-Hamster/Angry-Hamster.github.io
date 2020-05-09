@@ -14,11 +14,11 @@
 //     });
 // });
 
-// #3
+// #3 
 // let inputs = document.querySelectorAll(".foreach");
 // inputs.forEach((item, i) => {
 //     item.addEventListener('click',function(){
-//         console.log(item.value); 
+//         console.log(item);
 //     });
 // });
 
@@ -27,25 +27,21 @@
 // block.forEach((item, i) => {
 //     item.addEventListener('click', function() {
 //         item.classList.toggle('active');
-//         console.log(i+1 + ' element');
+//         console.log(i+' element');
 //     });
 // });
 
-// #5 -+-
+// #5 -
 // let block = document.querySelectorAll(".block");
 // block.forEach((item) => {
-//     item.addEventListener('click', function(item) {
+//     item.addEventListener('click', function() {
 //         console.log(item);
 //     });
 // });
 
-// #6 -+-
+// #6 +
 // let inputs = document.querySelectorAll("input");
 // inputs.forEach((item) => {
 //         item.checked = true;
 // });
-
-
-
-
 

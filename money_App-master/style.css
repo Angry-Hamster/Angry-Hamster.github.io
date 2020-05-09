@@ -1,0 +1,355 @@
+@font-face {
+    font-family: "SourceSansPro-Bold";
+    src: url("./fonts//SourceSansPro-Bold.otf");
+}
+
+@font-face {
+    font-family: "SourceSansPro-Regular";
+    src: url("./fonts//SourceSansPro-Regular.otf");
+}
+
+*,
+*:before,
+*:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+header,
+main,
+footer {
+    width: 1443px;
+    margin: 0 auto;
+}
+
+/* green button #00a51c  text #7acc5b */
+/* yellow button #ffb83d*/
+/* blue button #00bcb0*/
+/* grey button #f7f7f7  text #9f9f9f */
+.container {
+    width: 1201px;
+}
+
+.logo {
+    font-family: "SourceSansPro-Bold";
+    font-size: 48px;
+    color: #ffb83d;
+    text-decoration: none;
+    padding-top: 30px;
+    padding-left: 145px;
+}
+
+.s1 {
+    /* тут реально надо что-то сделать с изображением */
+    background-image: url("./img/photo_2020-05-01_20-20-44.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.s1_title {
+    font-family: "SourceSansPro-Bold";
+    font-size: 72px;
+    color: #ffb83d;
+    padding-top: 254px;
+    padding-left: 145px;
+    margin-bottom: 80px;
+}
+
+.s1_desk {
+    font-family: "SourceSansPro-Bold";
+    font-size: 30px;
+    color: #000000;
+    padding-left: 145px;
+    padding-bottom: 203px;
+    margin: 0;
+}
+
+/* s2 */
+.s2 {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    margin: 0 auto;
+    width: 1443px;
+}
+
+.s2_subTitle {
+    display: block;
+    text-align: center;
+    font-family: "SourceSansPro-Bold";
+    font-size: 40px;
+    color: #ffb83d;
+}
+
+.s2_incomes,
+.s2_costs {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    width: inherit;
+}
+
+.s2_costs {
+    height: 350px;
+    background-color: #f7f7f7;
+    border-radius: 80px;
+}
+
+.s2_incomes-main,
+.s2_incomes-addit,
+.s2_costs-main,
+.s2_costs-addit {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: center;
+    width: 600px;
+}
+
+.s2_costs-main,
+.s2_costs-addit {
+    flex-flow: column;
+}
+
+.s2_incomes-main p,
+.s2_incomes-addit p,
+.s2_costs-main p,
+.s2_costs-addit p {
+    font-family: "SourceSansPro-Bold";
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.s2_incomes-main input,
+.s2_incomes-addit input {
+    width: 92px;
+    height: 36px;
+    border: none;
+    border-bottom: 1px solid rebeccapurple;
+    margin-left: 26px;
+    color: #7acc5b;
+    font-size: 20px;
+}
+
+.s2_costs-btn {
+    display: block;
+    width: 346px;
+    height: 74px;
+    background-color: #00bcb0;
+    color: white;
+    font-family: "SourceSansPro-Bold";
+    font-size: 30px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 0px 26px -1px rgba(0, 0, 0, 0.91);
+}
+
+.s2_total-btn {
+    display: block;
+    margin: 100px auto;
+    width: 560px;
+    height: 80px;
+    color: white;
+    background-color: #ffb83d;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0px 0px 26px -1px rgba(0, 0, 0, 0.91);
+    font-family: "SourceSansPro-Bold";
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* розвахувати бюджет */
+.budget_calculation {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 180px;
+}
+
+.budget_calculation-item {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    width: 560px;
+}
+
+.budget_calculation-item div {
+    text-align: center;
+}
+
+.budget_calculation-item p {
+    font-family: "SourceSansPro-Bold";
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.budget_calculation-item button {
+    display: block;
+    width: 160px;
+    height: 26px;
+    background-color: #00bcb0;
+    color: white;
+    font-family: "SourceSansPro-Bold";
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px;
+}
+
+/* перелік основних витрат */
+.mainCosts-list,
+.additCosts-list {
+    font-family: "SourceSansPro-Regular";
+    font-size: 24px;
+    margin: 50px 0;
+}
+
+.mainCosts-list span,
+.additCosts-list span {
+    margin-right: 10px;
+    position: relative;
+}
+
+
+.forCloseIcon::after {
+    content: "";
+    width: 30px;
+    height: 30px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: inline-block;
+    position: relative;
+    /* left: -50px; */
+    top: 7px;
+    padding-right: 30px;
+    background-image: url('./img/close-24px.svg');
+}
+
+/* перелік додаткових витрат */
+
+
+/* введіть свої витрати */
+
+.form_enter-costs {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    width: 1092px;
+    height: 478px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 0px 26px -1px rgba(0, 0, 0, 0.61);
+}
+
+.form_enter-costs h4 {
+    font-family: "SourceSansPro-Bold";
+    font-size: 36px;
+    font-weight: bold;
+    margin-top: 40px;
+}
+
+.form_enter-costs div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: flex-start;
+}
+
+.form_costs{
+    display: flex;
+    flex-flow: row wrap;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 825px;
+    margin-top: 40px;
+    overflow-y:scroll;
+    height: 200px;
+}
+
+.enter_costname,
+.enter_costsum {
+    height: 40px;
+    padding-left: 20px;
+    color: rgb(135, 138, 141);
+    border: none;
+    border: 1px solid rgb(225, 230, 225);
+    border-radius: 5px;
+    margin: 1px;
+}
+
+.enter_costname {
+    width: 354px;
+    margin-right: 140px;
+}
+
+.enter_costsum {
+    width: 230px;
+    height: 40px;
+}
+
+.add-cost {
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #00bcb0;
+    color: #f7f7f7;
+    font-weight: bold;
+    margin: 30px 0;
+    margin-left: 10px;
+}
+
+.send-costs {
+    margin-top: 10px;
+    width: 232px;
+    height: 76px;
+    color: #f7f7f7;
+    background-color: #00a51c;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0px 0px 26px -1px rgba(0, 0, 0, 0.61);
+    font-family: "SourceSansPro-Bold";
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* розвахувати бюджет */
+
+footer {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+    color: #f7f7f7;
+    font-family: "SourceSansPro-Regular";
+    font-size: 30px;
+    padding: 0 145px;
+    background-color: #00bcb0;
+}
+
+

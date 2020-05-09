@@ -7,16 +7,16 @@
 // clikc.addEventListener('click',fn);
 
 // #2
-const fn = function(){
-    let shavuha = document.querySelector('.shavuha');
-    shavuha.classList.toggle('hide');
-};
-let toogle = document.querySelector('.toogle');
-toogle.addEventListener('click',fn);
+// const fn = function(){
+//     let shavuha = document.querySelector('.shavuha');
+//     shavuha.classList.toggle('hide');
+// };
+// let toogle = document.querySelector('.toogle');
+// toogle.addEventListener('click',fn);
 
 // #3
-// let input = document.querySelector('.phone');
-// input.addEventListener('input',function(){console.log(input.value);});
+let input = document.querySelector('.phone');
+input.addEventListener('input',function(){console.log(input.value);});
 
 // #4
 // let input = document.querySelector('.phone');
