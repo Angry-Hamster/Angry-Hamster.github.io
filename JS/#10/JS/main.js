@@ -31,7 +31,7 @@
 //     });
 // });
 
-// #5 -
+// #5
 // let block = document.querySelectorAll(".block");
 // block.forEach((item) => {
 //     item.addEventListener('click', function() {
@@ -39,7 +39,7 @@
 //     });
 // });
 
-// #6 +
+// #6
 // let inputs = document.querySelectorAll("input");
 // inputs.forEach((item) => {
 //         item.checked = true;
