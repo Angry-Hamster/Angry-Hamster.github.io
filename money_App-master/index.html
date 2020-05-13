@@ -26,11 +26,11 @@
             <ul class="s2_incomes">
                 <li class="s2_incomes-main">
                     <p>Основний дохід</p>
-                    <input type="number" name="" value="" id="" placeholder="20,00">
+                    <input class="Income" type="number" name="" value="" id="" placeholder="20,00">
                 </li>
                 <li class="s2_incomes-addit">
                     <p>Додатковий дохід</p>
-                    <input type="number" name="" value="" id="" placeholder="20,00">
+                    <input class="Income" type="number" name="" value="" id="" placeholder="20,00">
                 </li>
             </ul>
 
@@ -59,20 +59,21 @@
             <button class="s2_total-btn">Розрахувати бюджет</button>
 
             <!-- введіть свої витрати -->
-            <form action="#" class="form_enter-costs">
-                <h4>Введіть свої витрати</h4>
-                <div>
-                    <div class="form_costs">
-                        <div class="form_costs_chiilds">
-                            <input class="enter_costname" type="text" name="" id="" placeholder="Стаття витрат" />
-                            <input class="enter_costsum" type="text" name="" id="" placeholder="Сума" /> 
-                    
+                <form action="#" class="form_enter-costs">
+                    <h4>Введіть свої витрати</h4>
+                    <div>
+                        <div class="form_costs">
+                            <div class="form_costs_chiilds">
+                                <input class="enter_costname" type="text" name="" id="" placeholder="Стаття витрат" />
+                                <input class="enter_costsum" type="text" name="" id="" placeholder="Сума" /> 
+                        
+                            </div>
                         </div>
-                    </div>
-                    <button class="add-cost">&#10010;</button>
-                </div>    
-                <button class="send-costs">ok</button>
-            </form>
+                        <button class="add-cost">&#10010;</button>
+                    </div>    
+                    <button class="send-costs">ok</button>
+                </form>
+            <div class="bg-form"></div>
             <!-- введіть свої витрати -->
 
             <!-- розвахувати бюджет -->
@@ -80,21 +81,21 @@
                 <li class="budget_calculation-item">
                     <p>Загальний дохід</p>
                     <div>
-                        <p>11000 uah</p>
-                        <button>Докладніше</button>
+                        <p class="info">дохід uah</p>
+                        <!-- <button>Докладніше</button> -->
                     </div>
                 </li>
                 <li class="budget_calculation-item">
                     <p>Загальні витрати</p>
                     <div>
-                        <p>310 uah</p>
-                        <button>Докладніше</button>
+                        <p class="info">витрати uah</p>
+                        <!-- <button>Докладніше</button> -->
                     </div>
                 </li>
                 <li class="budget_calculation-item">
                     <p>Залишок</p>
                     <div>
-                        <p>10690 uah</p>
+                        <p class="info">Залишок uah</p>
                     </div>
                 </li>
             </ul>

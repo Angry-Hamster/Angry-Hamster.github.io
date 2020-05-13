@@ -1,3 +1,4 @@
+v1
 enter_costname.forEach((item, i) => {
         let enter = document.querySelector(".mainCosts-list"),
             htmlCode = '<li><span class="nameCosts">text</span><span class="forCloseIcon">Сума</span></li>';
@@ -11,4 +12,9 @@ enter_costname.forEach((item, i) => {
         console.log(i);
     });
 
-    parentElem.appendChild(elem)
+v2
+    parentElem.appendChild(elem)    enter_costname.forEach((item, i) => {
+        let enter = document.querySelector(".mainCosts-list");
+
+        enter.innerHTML += '<li><span class="nameCosts">'+ item.value +'</span><span class="forCloseIcon">'+ enter_costsum[i].value +'</span></li>';
+    });

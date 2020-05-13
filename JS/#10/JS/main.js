@@ -32,12 +32,12 @@
 // });
 
 // #5
-// let block = document.querySelectorAll(".block");
-// block.forEach((item) => {
-//     item.addEventListener('click', function() {
-//         console.log(item);
-//     });
-// });
+let block = document.querySelectorAll(".block");
+block.forEach((item) => {
+    item.addEventListener('click', function() {
+        console.log(item);
+    });
+});
 
 // #6
 // let inputs = document.querySelectorAll("input");
