@@ -40,6 +40,10 @@ buttonCosts.forEach((item, i) => {
             form.style.display = 'none';
             beground.style.display = 'none';
         });
+        form.scrollIntoView({
+            behavior: 'smooth',
+            block: 'center'    
+        });
     });
 });
 
@@ -51,7 +55,7 @@ let AddCost = document.querySelectorAll(".add-cost");
 AddCost.forEach((item) => {
     item.addEventListener('click', function() {
         let formCosts = document.querySelector(".form_costs"),
-            htmlCode = '<div class="form_costs_chiilds"><input class="enter_costname" type="text" name="" id="" placeholder="Стаття витрат" /><input class="enter_costsum" type="text" name="" id="" placeholder="Сума" /> </div>';
+            htmlCode = '<div class="form_costs_chiilds"><input class="enter_costname" type="text" name="" id="" placeholder="Стаття витрат" /><input class="enter_costsum" type="number" name="" id="" placeholder="Сума" /> </div>';
         formCosts.insertAdjacentHTML('beforeEnd', htmlCode);
 
         counter++
@@ -87,7 +91,7 @@ btn.addEventListener('click', function() {
         };
 
         // перевірка данних
-        if(item.value == '' && enter_costsum[i].value == ''){
+        if(enter_costsum[i].value == ''){
             console.error('item Error'); 
         } else{
             enter.innerHTML += '<li class="costs"><span class="nameCosts">'+ item.value +'</span><span class="forCloseIcon">'+ enter_costsum[i].value +'</span></li>';
