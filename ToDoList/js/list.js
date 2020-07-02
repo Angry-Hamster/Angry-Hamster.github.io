@@ -18,9 +18,14 @@ window.list =`
             <batton class="plas" onmousedown="return false">+</batton>
         </div>
         <div class="info">
-            <input class="input-date date-from" type="text" value="${dayOfMonth} ${"."} ${tomonth} ${"."} ${year}">
-            <input class="input-date date-to" type="date" placeholder="Date to">
-
+            <div class="perent-for-date">
+                <label for="from" class="lable">Дата створення</label>
+                <input class="input-date date-from" id="from" type="text" value="${dayOfMonth} ${"."} ${tomonth} ${"."} ${year}" readonly>
+            </div>
+            <div class="perent-for-date">
+                <label for="to" class="lable">Дата завершення</label>
+                <input class="input-date date-to" id="to" type="date" placeholder="Date to"></input>
+            </div>
         </div>
         <div class="task">
             <textarea class="input-task" placeholder="Task"></textarea>
@@ -28,5 +33,6 @@ window.list =`
     </div>
 
 `;
+
 
 
