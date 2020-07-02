@@ -14,16 +14,16 @@ window.list =`
 
     <div class="list">
         <div class="name">
-            <input class="input-name" type="text" value="Name of task">
+            <input class="input-name" type="text" placeholder="Name of task">
             <batton class="plas" onmousedown="return false">+</batton>
         </div>
         <div class="info">
-            <input class="input-date date-from" type="text" value="${dayOfMonth} ${"."} ${tomonth} ${"."} ${year}">
-            <input class="input-date date-to" type="date" value="Date to">
+            <input class="input-date date-from" type="text" placeholder="${dayOfMonth} ${"."} ${tomonth} ${"."} ${year}">
+            <input class="input-date date-to" type="date" placeholder="Date to">
 
         </div>
         <div class="task">
-            <textarea class="input-task">Task</textarea>
+            <textarea class="input-task" placeholder="Task"></textarea>
         </div>
     </div>
 
