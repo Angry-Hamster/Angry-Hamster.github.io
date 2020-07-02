@@ -18,7 +18,7 @@ window.list =`
             <batton class="plas" onmousedown="return false">+</batton>
         </div>
         <div class="info">
-            <input class="input-date date-from" type="text" placeholder="${dayOfMonth} ${"."} ${tomonth} ${"."} ${year}">
+            <input class="input-date date-from" type="text" value="${dayOfMonth} ${"."} ${tomonth} ${"."} ${year}">
             <input class="input-date date-to" type="date" placeholder="Date to">
 
         </div>
