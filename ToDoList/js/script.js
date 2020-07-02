@@ -44,7 +44,7 @@ const sorting = function(date, select){
             
             order += Number(items);
         });
-        item.parentNode.parentNode.style.order = order;
+        item.parentNode.parentNode.parentNode.style.order = order;
     });
 }
 
