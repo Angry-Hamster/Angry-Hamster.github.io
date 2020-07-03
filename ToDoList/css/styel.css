@@ -20,6 +20,8 @@ body {
     text-align: center;
 
     color: #00A4BA;
+
+    cursor: default;
 }
 
 .plus {
