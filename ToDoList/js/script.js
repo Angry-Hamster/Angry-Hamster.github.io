@@ -30,10 +30,9 @@ BtnAddTask.addEventListener('click', function(){
 let DateFrom = document.querySelector('.DateFrom');
 let DateTo = document.querySelector('.DateTo');
 
-const sorting = function(date, select){
+const sorting = function(date, select, time){
     date.forEach(item =>{
-        let order = 0; 
-        console.log(item.value);
+        let order = 0;
         
         item.value.split(select).forEach((items, i) =>{
             if(i==1){
@@ -41,16 +40,20 @@ const sorting = function(date, select){
             }else if(i==2){
                 items = Number(items)*1000
             }
-            
             order += Number(items);
         });
-        item.parentNode.parentNode.parentNode.style.order = order;
+        item.parentNode.parentNode.parentNode.parentNode.style.order = order;    
     });
+
+    // time.forEach(item =>{
+        
+    // });
 }
 
 DateFrom.addEventListener('click', function(){
     let date = document.querySelectorAll('.date-from');
-    sorting(date, " . ")
+    let time = document.querySelectorAll('.time-from');
+    sorting(date, " . " ,time)
 });
 DateTo.addEventListener('click', function(){
     let date = document.querySelectorAll('.date-to');
