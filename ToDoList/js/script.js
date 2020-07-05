@@ -96,9 +96,11 @@ const sorting = function(date, select1, time, select2){
         items.value.split(select2).forEach((item, i) =>{
             
             if(i == 0){
-                item * 100
+                item = Number(item) * 100
+            } else{
+                item = Number(item)
             }
-            order = Number(item);
+            order += item;
         });
         items.parentNode.parentNode.parentNode.parentNode.style.order += order;
     });
